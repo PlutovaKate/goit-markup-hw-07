@@ -1,0 +1,39 @@
+// чем занимается
+
+.section-engage {
+    padding-bottom: 94px;
+  }
+  .engage__list {
+    padding-top: 50px;
+  
+    display: flex;
+    width: 1170px;
+
+    }
+    
+  .engage__img {
+        margin-left: 30px;
+        &:first-child {
+          margin-left: 0;}
+  }
+ 
+  .engage__wrapper {
+    position: relative;
+  }
+  
+  .engage__descr {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 100%;
+    height: 70px;
+  
+    background-color: rgba(47, 48, 58, 0.8);
+    color: rgba(255, 255, 255, 1);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,37 @@
+  // преимущеста
+ 
+.feature__list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.feature__list p {
+  margin-top: 10px;
+}
+
+.feature__list {
+  display: flex;
+
+  .item {
+    width: 72px;
+  }
+}
+
+.feature__icons {
+  background-color: rgba(245, 244, 250, 1);
+  width: 270px;
+  height: 120px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-self: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.feature__icon {
+  margin: auto;
+}
