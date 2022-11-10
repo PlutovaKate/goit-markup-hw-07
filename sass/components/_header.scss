@@ -75,7 +75,7 @@
      width: 100%;
      background: var(--blue-color);
      border-radius: 2px;
-     bottom: -5px;
+     bottom: -3px;
     
      position: absolute;
     }
@@ -84,6 +84,7 @@
    &__auth-nav {
     display: flex;
     margin-left: auto;
+    align-items: baseline;
    
     & .item {
      display: flex;

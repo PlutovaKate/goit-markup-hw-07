@@ -92,6 +92,8 @@
     cursor: pointer;
     padding: 0;
     outline: none;
+
+   
   }
   
   .close {
@@ -183,9 +185,11 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    margin-left: 7px;
   }
   .check-wrapp {
     display: block;
+    align-self: baseline;
     width: 16px;
     height: 15px;
     border: 2px solid rgba(33, 33, 33, 1);
@@ -235,10 +239,11 @@
     &:hover,
     &:focus {
       color: var(--white-color);
-      background-color: var(--blue-color);
-      background: var(--blue-color);
+      background-color: #188CE8;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       border-radius: 4px;
     }
   }
+
+ 
   
